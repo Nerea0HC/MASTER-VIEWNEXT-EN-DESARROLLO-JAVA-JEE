@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>ProductCONTROL</servlet-name>
+		<servlet-class>com.almacen.controller.ProductCONTROL</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductCONTROL</servlet-name>
+		<url-pattern>/products</url-pattern>
+	</servlet-mapping>
+</web-app>
+
