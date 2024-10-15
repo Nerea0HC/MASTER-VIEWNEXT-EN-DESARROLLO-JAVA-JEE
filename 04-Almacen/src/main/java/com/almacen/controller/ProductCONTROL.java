@@ -61,7 +61,7 @@ public class ProductCONTROL extends HttpServlet {
 		String action = request.getParameter("action");
 
 		/**
-		 * Reutilizamos la llamada para añadir un producto o modificarlo
+		 * Comprobamos y añadimos productos
 		 */
 		if ("add".equals(action)) {
 			String name = request.getParameter("name");
